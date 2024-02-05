@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { appName } from '~/constants'
-import 'wc-github-corners'
+// import 'wc-github-corners'
 
 useHead({
   title: appName,
@@ -8,7 +8,7 @@ useHead({
 </script>
 
 <template>
-  <github-corners repo="YunYouJun/ai-sfc" blank />
+  <github-corners repo="mattliu007/ai-sfc" blank />
   <VitePwaManifest />
   <NuxtLayout>
     <NuxtPage />

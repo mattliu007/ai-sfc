@@ -19,11 +19,11 @@ export const useAppStore = defineStore('app', () => {
     /**
      * 是否翻转对联
      */
-    inverseCouplets: true,
+    inverseCouplets: false,
     /**
      * 是否反转福字
      */
-    inverseFu: true,
+    inverseFu: false,
   })
 
   const route = useRoute()

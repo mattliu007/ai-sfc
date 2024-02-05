@@ -5,7 +5,7 @@ import pkg from '~/package.json'
 <template>
   <div text="center sm" my-3>
     <CurrentVersion />
-    <div flex="~" items-center justify-center gap="2">
+    <!-- <div flex="~" items-center justify-center gap="2">
       <a
         :href="pkg.repository.url" target="_blank"
         class="inline-flex items-center justify-center"
@@ -21,6 +21,6 @@ import pkg from '~/package.json'
         <div i-ri-bilibili-line mr-1 class="text-pink-400" />
         <span>云游君</span>
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
