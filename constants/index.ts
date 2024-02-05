@@ -1,2 +1,2 @@
-export const appName = 'AI 春联'
-export const appDescription = 'AI 春联生成'
+export const appName = 'AI春联 - 花集AI精灵'
+export const appDescription = 'AI春联生成'
